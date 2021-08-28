@@ -2,7 +2,8 @@
 %   PARAMETERS Returns a data structure containing the parameters of the
 %   Team Ultra Help Desk Robot.
 %
-%   Authors: Thomas Doyle 
+%   Authors: Joe Waskiw("The Waz"), Thomas Doyle, Sol Rainbow, Neasan Sofaea,
+%   Matthew McGregor, Henry Mitchell. 
 %   email: tad589@uowmail.edu.au
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

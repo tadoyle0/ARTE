@@ -1,0 +1,6 @@
+Team Ultra Help Desk Robot
+TODO LIST
+1. 3D CAD files to represent the robot.
+2. Copy files into the directory for our robot.
+3. Edit a parameters.m file belonging to this robot design.
+4. Generate the layout of the tables etc.
