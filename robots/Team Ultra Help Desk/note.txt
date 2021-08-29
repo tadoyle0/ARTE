@@ -3,6 +3,8 @@ git commit -m "name" // commits changes and logs record of changes
 git push // all changes made in folder will be pushed into the directory for others to work on
 git pull // pulls all new changes made into local machine folders
 git merge origin // merges any changes between local folder and repository folder
+git config --global user.email "srr922@uowmail.edu.au" // configures email
+git config --global user.name "srr922" // username
 
 
 
