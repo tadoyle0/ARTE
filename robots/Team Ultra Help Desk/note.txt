@@ -1,4 +1,10 @@
 The Team Ultra Help Desk Robot.
 Joe is mad.
+<<<<<<< HEAD
 
 Greg is slow
+=======
+he loves to eat
+>>>>>>> 11e43648f769794aa34a35144bb47ba86ea723c5
+
+test
