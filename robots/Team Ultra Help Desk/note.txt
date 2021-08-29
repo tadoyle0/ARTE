@@ -1,16 +1,7 @@
 The Team Ultra Help Desk Robot.
 Joe is mad.
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-Greg is slow
-=======
 he loves to eat
->>>>>>> 11e43648f769794aa34a35144bb47ba86ea723c5
-
-test
-=======
-he loves to eat
-
 Joe is a good bloke
->>>>>>> 4cb778e5c5bdf47d8d60bf2b0f14f9f22c8f83ee
+
+
+
