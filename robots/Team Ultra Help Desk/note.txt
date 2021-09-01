@@ -12,7 +12,4 @@ git merge origin // merges any changes between local folder and repository folde
 git config --global user.email "srr922@uowmail.edu.au" // configures email
 git config --global user.name "srr922" // username
 
-
-
-
 >>>>>>> 6ef4571028bcc34d73a78f40076cb9486f89d234
