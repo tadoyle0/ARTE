@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+The Team Ultra Help Desk Robot.
+Joe is mad.
+he loves to eat
+Joe is a good bloke
+=======
 git add . // adds all changes in working directory to 
 git commit -m "name" // commits changes and logs record of changes 
 git push // all changes made in folder will be pushed into the directory for others to work on
@@ -5,6 +11,11 @@ git pull // pulls all new changes made into local machine folders
 git merge origin // merges any changes between local folder and repository folder
 git config --global user.email "srr922@uowmail.edu.au" // configures email
 git config --global user.name "srr922" // username
+<<<<<<< HEAD:robots/Team Ultra Help Desk/note.txt
 //
 robot.piece.T0(1:3,4)= [-0.1 -0.5 0.2]’ // after adding the bench and the piece, to move the pice to another location in the work bench use this command
 cd "C:\Users\Solomon\Documents\Uni\fourth year\Semester 2\ECTE471\ARTE\robots\Team Ultra Help Desk"
+=======
+
+>>>>>>> 6ef4571028bcc34d73a78f40076cb9486f89d234
+>>>>>>> 0d7f3c5d0bfbc8d3c47563ec9e4ee9d68455f3cc:robots/Team Ultra Help Desk/TUHD/note.txt
