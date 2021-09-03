@@ -33,41 +33,41 @@ robot.name= 'TUHD';
 %Path where everything is stored for this robot
 robot.path = 'robots/abb/IRB52';
 
-robot.DH.theta= '[q(1) q(2)-pi/2 q(3) q(4) q(5) q(6)+pi]';
-robot.DH.d='[0.4865 0 0 0.6 0 0.065]';
-robot.DH.a='[0.15 0.475 0 0 0 0]';
-robot.DH.alpha= '[-pi/2 0 -pi/2 pi/2 -pi/2 0]';
+robot.DH.theta= '[q(1) q(2)-pi/2 q(3) q(4) q(5)]';
+robot.DH.d='[0.4865 0 0 0.6 0]';
+robot.DH.a='[0.15 0.475 0 0 0]';
+robot.DH.alpha= '[-pi/2 0 -pi/2 pi/2 -pi/2]';
 robot.J=[];
 
 
-robot.inversekinematic_fn = 'inversekinematic_irb52(robot, T)';
+%robot.inversekinematic_fn = 'inversekinematic_irb52(robot, T)';
 
 %number of degrees of freedom
-robot.DOF = 6;
+robot.DOF = 5;
 
 %rotational: 0, translational: 1
-robot.kind=['R' 'R' 'R' 'R' 'R' 'R'];
+robot.kind=['R' 'R' 'R' 'R' 'R'];
 
 %minimum and maximum rotation angle in rad
 robot.maxangle =[-pi pi; %Axis 1, minimum, maximum
                 deg2rad(-63) deg2rad(110); %Axis 2, minimum, maximum
                 deg2rad(-235) deg2rad(55); %Axis 3
                 deg2rad(-200) deg2rad(200); %Axis 4: Unlimited (400� default)
-                deg2rad(-115) deg2rad(115); %Axis 5
-                deg2rad(-400) deg2rad(400)]; %Axis 6: Unlimited (800� default)
+                deg2rad(-115) deg2rad(115)]; %Axis 5
+                %deg2rad(-400) deg2rad(400)]; %Axis 6: Unlimited (800� default)
 
 %maximum absolute speed of each joint rad/s or m/s
 robot.velmax = [deg2rad(180); %Axis 1, rad/s
                 deg2rad(180); %Axis 2, rad/s
                 deg2rad(180); %Axis 3, rad/s
                 deg2rad(320); %Axis 4, rad/s
-                deg2rad(400); %Axis 5, rad/s
-                deg2rad(460)];%Axis 6, rad/s
+                deg2rad(400)]; %Axis 5, rad/s
+                %deg2rad(460)];%Axis 6, rad/s
        
 robot.accelmax=robot.velmax/0.1; % 0.1 is here an acceleration time
             
 % end effectors maximum velocity
-robot.linear_velmax = 2.5; %m/s �NO ESTA EN EL DATASHEET?
+robot.linear_velmax = 2.5; %m/s
 
 %base reference system
 robot.T0 = eye(4);
