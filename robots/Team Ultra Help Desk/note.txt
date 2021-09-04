@@ -8,7 +8,7 @@ git config --global user.name "srr922" // username
 //
 robot.piece.T0(1:3,4)= [-0.1 -0.5 0.2]’ // after adding the bench and the piece, to move the pice to another location in the work bench use this command
 cd "C:\Users\Solomon\Documents\Uni\fourth year\Semester 2\ECTE471\ARTE\robots\Team Ultra Help Desk"
-Steps: 
+Steps For maintaining up to date documentation: 
 1. Pull all changes made by team members (ensure current directory is correct, use git pull command)
 2. Fix potential merge conflicts 
 3. Add, commit, push new edits 
