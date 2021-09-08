@@ -31,7 +31,7 @@ function robot = parameters()
 robot.name= 'TUHD';
 
 %Path where everything is stored for this robot
-robot.path = 'robots/abb/IRB52';
+robot.path = 'robots/Team Ultra Help Desk/TUHD';
 
 robot.DH.theta= '[q(1) q(2)-pi/2 q(3) q(4) q(5)]';
 robot.DH.d='[0.4865 0 0 0.6 0]';
