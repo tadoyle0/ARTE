@@ -25,7 +25,7 @@
 function robot = parameters()
 
 robot.name= 'ABB_IRB140_M2000';
-robot.DH.theta= '[q(1) q(2)-pi/2 q(3) q(4) q(5) q(6)+pi]';
+robot.DH.theta= '[q(1) q(2) q(3) q(4) q(5) q(6)+pi]';
 robot.DH.d='[0.352 0 0 0.380 0 0.065]';
 robot.DH.a='[0.070 0.360 0 0 0 0]';
 robot.DH.alpha= '[-pi/2 0 -pi/2 pi/2 -pi/2 0]';

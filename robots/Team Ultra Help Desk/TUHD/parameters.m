@@ -28,17 +28,30 @@
 % similar
 function robot = parameters()
 
+
 robot.name= 'TUHD';
 
 %Path where everything is stored for this robot
 robot.path = 'robots/Team Ultra Help Desk/TUHD';
 
-robot.DH.theta= '[q(1) q(2)-pi/2 q(3) q(4) q(5)]';
-robot.DH.d='[0.4865 0 0 0.6 0]';
-robot.DH.a='[0.15 0.475 0 0 0]';
-robot.DH.alpha= '[-pi/2 0 -pi/2 pi/2 -pi/2]';
-robot.J=[];
+%robot.DH.theta= '[q(1)  q(2)     q(3)      q(4)      q(5)]';
+%robot.DH.d=     '[0          0      0       0        0 ]';
+%robot.DH.a=     '[0            0     0      0        0 ]'           ;
+%robot.DH.alpha= '[0        0       0         0         0  ]';
+%robot.J=[];
 
+%work in progress - stuck at here                         ......
+%robot.DH.theta= '[q(1)     q(2)-pi/2         q(3)-pi/2     q(4)         q(5) ]';
+%robot.DH.d='     [0.300      0                  0           0            0  ]';
+%robot.DH.a='     [ 0         1.                 1.         .5            .5  ]';
+%robot.DH.alpha= '[-pi/2       0                 pi         pi/2        -pi/2]';
+%robot.J=[];
+
+robot.DH.theta= '[q(1)     q(2)-pi/2    q(3)       q(4)      q(5) ]';
+robot.DH.d=     '[0.3      0.00          .03       0.200        .070 ]';
+robot.DH.a=     '[0        1.5          1.470       0         0 ]';
+robot.DH.alpha= '[-pi/2     0           -pi/2       pi/2     -pi/2 ]';
+robot.J=[];
 
 %robot.inversekinematic_fn = 'inversekinematic_irb52(robot, T)';
 
@@ -87,7 +100,7 @@ robot.graphical.draw_axes=1;
 %bigger robots
 robot.graphical.axes_scale=1;
 %adjust for a default view of the robot
-robot.axis=[-0.75 0.75 -0.75 0.75 0 1.2];
+robot.axis=[-2 2 -2 2 0 2];
 %read graphics files
 robot = read_graphics(robot);
 
