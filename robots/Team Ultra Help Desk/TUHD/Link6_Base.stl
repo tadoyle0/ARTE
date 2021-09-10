@@ -1,4 +1,4 @@
-solid "Link5_Base"
+solid "Link6_Base"
   facet normal 0 -1 0
     outer loop
       vertex 1670 6.21724826027e-14 1940
@@ -3023,4 +3023,4 @@ solid "Link5_Base"
       vertex 1685.73413086 30 1895.36474609
     endloop
   endfacet
-endsolid "Link5_Base"
+endsolid "Link6_Base"
