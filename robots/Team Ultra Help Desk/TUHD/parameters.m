@@ -158,10 +158,10 @@ robot.name= 'TUHD';
 % robot.DH.alpha= '[-pi/2 0 -pi/2 pi/2 -pi/2 0]';
 % robot.J=[];
 
-robot.DH.theta= '[q(1)      q(2)-pi/2     q(3)        q(4)     q(5)   q(6)]';
-robot.DH.d='     [0.300      0.00         0           1.5       0        0.2 ]';
+robot.DH.theta= '[q(1)      q(2)-pi/2     q(3)      q(4)     q(5)   q(6)]';
+robot.DH.d='     [0.300      0.00         0           1.5      0.2      0]';
 robot.DH.a='     [0          1.5          .130           0      0        0]';
-robot.DH.alpha= '[-pi/2      0            -pi/2       pi/2     -pi/2      0]';
+robot.DH.alpha= '[-pi/2      0            -pi/2         0       0      0]';
 robot.J=[];                                                                     
 
 robot.inversekinematic_fn = 'inversekinematic_MH12(robot, T)';

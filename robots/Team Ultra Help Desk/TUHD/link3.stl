@@ -1,4 +1,4 @@
-solid Created by stlwrite.m 10-Sep-2021 22:33:54
+solid Created by stlwrite.m 14-Sep-2021 16:20:00
 facet normal 0.0000000E+00 0.0000000E+00 -1.0000000E+00
 outer loop
 vertex 2.9999999E-02 1.5000000E-02 1.4800000E+00
@@ -1623,4 +1623,4 @@ vertex 2.7029052E-02 -1.5000001E-02 -1.3016507E-02
 vertex 2.9247804E-02 -1.5000001E-02 -6.6756206E-03
 endloop
 endfacet
-endsolid Created by stlwrite.m 10-Sep-2021 22:33:54
+endsolid Created by stlwrite.m 14-Sep-2021 16:20:00
